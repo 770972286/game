@@ -1,0 +1,112 @@
+#main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 64px;
+}
+#main h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#main h2{
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing:1em;
+    margin-top: 30px;
+    /* display: none; */
+}
+body,html{
+    background-color: #f3d032;
+}
+#main .game{ display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    width: 50%;
+}
+#main .game .player{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main .game .compterGusture{
+    font-size: 30px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main .game .myGusture{
+    font-size: 30px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main .game .myGusture img{
+    rotate: -45deg;
+}
+#main .game .name {
+    color:#222 ;
+    font-size: 14px;
+    margin-top: 32px;
+}
+#main .game .CGsituation {
+    color:#222 ;
+    font-size: 14px;
+    margin-top: 32px;
+}
+#main .game .mysituation {
+    color:#222 ;
+    font-size: 14px;
+    margin-top: 32px;
+}
+#main button{
+    background-color: #333;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+#select-dialog{
+    /* display: none; */
+    width: 300px;
+    height: 50px;
+    background-color: #fff;
+    border: 3px solid black;
+    border-radius: 5px;
+    /* display: block; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+#select-dialog .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#select-dialog .btn{
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+   background-color: #ffd518;
+}
+/* #select-dialog::backdrop {
+    background-color: rgba(0,0,0,.45);
+} */
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 0.5em;
+}

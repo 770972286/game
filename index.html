@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main">
+        <h1>剪刀石头布</h1>
+        <h2>round 1 </h2>
+        <div class="game">
+            <div class="conputer player">
+                <div class="compterGusture">
+                    <span>?</span>
+                    <!-- <img src="./paper.png" alt=""> -->
+                </div>
+                <p class="name">机器人</p>
+                <p class="CGsituation">胜：0 | 负：0</p>
+            </div>
+            <div class="my player">
+                <div class="myGusture">
+                    <span>?</span>
+                </div>
+                <p class="name">您</p>
+                <p class="mysituation">胜：0 | 负：0</p>
+            </div>
+        </div>
+        <div class="starnextRound">
+            <button>开始下一个回合</button>
+        </div>
+    </div>
+    <div class="result">
+        <!-- <p class="draw" >平局</p>
+        <p class="lose" >你输了</p>
+        <p class="win" >你赢了</p> -->
+    </div>
+    <dialog id="select-dialog" >
+        <form action="" id="select-form">
+            <p class="row">
+                <label for="gusture">请选择要出的手势：</label>
+                <select name="gusture" id="select-gusture">
+                    <option value="rock">拳头</option>
+                    <option value="scissor">剪刀</option>
+                    <option value="paper">布</option>
+                </select>
+            </p>
+            <p class="row">
+                <button class="btn" type="submit" >确定</button>
+            </p>
+        </form>
+    </dialog>
+   <script src="./index.js"></script>
+</body>
+</html>
